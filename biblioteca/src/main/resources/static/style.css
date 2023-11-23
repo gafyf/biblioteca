@@ -1,0 +1,11 @@
+td{
+   white-space:nowrap;
+   text-overflow:ellipsis;
+   overflow:hidden;
+}
+
+th{
+   white-space:nowrap;
+   text-overflow:ellipsis;
+   overflow:hidden;
+}

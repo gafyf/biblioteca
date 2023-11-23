@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Biblioteca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="container">
+     <h1>Cerca il tuo libro</h1>
+     <form class="row g-3 needs-validation">
+        <div class="d-flex">
+            <input type="text" class="form-control" id="validationCustom01" value="" placeholder="Inserisci qui il titolo del libro che stai cercando" required>
+            <button class="btn btn-light ms-3">vai</button>
+        </div>
+     </form>
+     <table class="table table-primary mt-5">
+         <thead>
+             <tr>
+                 <th>Titolo</th>
+                 <th>Autore</th>
+                 <th>Pubblicazione</th>
+                 <th>Disponibilità</th>
+                 <th>Stato</th>
+                 <th>Numero Copie</th>
+                 <th>Copie Disponibili</th>
+                 <th>Scaffale</th>
+             </tr>
+         </thead>
+         <tbody>
+           <tr>
+               <td>Titolo 1</td>
+               <td>Florin</td>
+               <td>2000/4/3</td>
+               <td>Disponibile</td>
+               <td>Buone</td>
+               <td>75</td>
+               <td>3</td>
+               <td>A0247</td>
+           </tr>
+         </tbody>
+     </table>
+ </div>
+
+</body>
+</html>
